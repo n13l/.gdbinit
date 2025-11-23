@@ -1,0 +1,20 @@
+# set logging file gdb.log
+# set logging overwrite on
+# set logging redirect on
+# set logging on
+
+set breakpoint pending on
+set confirm off
+set disassembly-flavor intel
+set disable-randomization on
+set pagination off
+
+dashboard registers -style column-major True
+dashboard source -style height 27
+dashboard -style divider_label_style_on_primary '99'
+dashboard -style divider_fill_char_primary '⎯'
+dashboard -style divider_fill_style_primary '90'
+dashboard -style divider_fill_style_secondary '37'  # light gray
+dashboard -style syntax_highlighting 'bw'
+
+
