@@ -16,4 +16,4 @@ dashboard -style divider_fill_style_primary '90'
 dashboard -style divider_fill_style_secondary '37'  # light gray
 dashboard -style syntax_highlighting 'bw'
 
-
+dashboard -enabled off
